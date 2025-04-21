@@ -1,0 +1,86 @@
+{
+  "id": "user_002",
+  "profile": {
+    "name": "Bob Johnson",
+    "email": "bob@example.com",
+    "balance": 3750.25
+  },
+  "transactions": [
+    {
+      "id": "tx1",
+      "type": "debit",
+      "amount": 150.00,
+      "date": "2025-04-02T10:00:00Z",
+      "description": "Payment: Gas",
+      "target": "Gas Company"
+    },
+    {
+      "id": "tx2",
+      "type": "credit",
+      "amount": 2000.00,
+      "date": "2025-03-30T08:30:00Z",
+      "description": "Freelance Payment",
+      "target": "Client A"
+    }
+  ],
+  "payments": [
+    {
+      "service": "Electricity",
+      "amount": 80.00,
+      "date": "2025-03-18",
+      "status": "paid",
+      "dueDate": "2025-04-18"
+    },
+    {
+      "service": "Gas",
+      "amount": 90.00,
+      "date": "2025-03-21",
+      "status": "unpaid",
+      "dueDate": "2025-04-21"
+    }
+  ],
+  "cards": [
+    {
+      "cardNumber": "**** **** **** 2345",
+      "type": "Visa",
+      "balance": 600.00,
+      "dueDate": "2025-04-12",
+      "closingDate": "2025-04-04",
+      "transactions": [
+        {
+          "description": "Coffee Shop",
+          "amount": 15.25,
+          "date": "2025-03-22"
+        },
+        {
+          "description": "Hardware Store",
+          "amount": 120.00,
+          "date": "2025-03-20"
+        }
+      ]
+    },
+    {
+      "cardNumber": "**** **** **** 6789",
+      "type": "MasterCard",
+      "balance": 1500.00,
+      "dueDate": "2025-04-15",
+      "closingDate": "2025-04-07",
+      "transactions": [
+        {
+          "description": "Bookstore",
+          "amount": 45.50,
+          "date": "2025-03-19"
+        },
+        {
+          "description": "Gym Membership",
+          "amount": 60.00,
+          "date": "2025-03-18"
+        }
+      ]
+    }
+  ],
+  "map_location": {
+    "latitude": 40.7128,
+    "longitude": -74.0060
+  }
+}
